@@ -70,7 +70,7 @@ hr {
  position: relative;
  margin-right: 30px;
  margin-left: 135px;
- margin-bottom: 20px;
+ margin-bottom: 10px;
  float: center;
 }
 .box.arrow-bottom:after {
@@ -85,13 +85,52 @@ hr {
 }
 
 .topMeterBorder{
-	 border: 5px solid #eaeaea;
+	 /* border: 5px solid #eaeaea; */
+	 height: 10px;
 	 width: 49%;
+	 background-color: rgba(242, 241, 239, .5);
 	 margin-left: 135px;
+	 border-style: solid;
+	 border-width: 1px;
+	 border-color: #ccc;
 }
  .meterBox {
 	 width: 37%;
 	 height: 10px;
 	 background-color: #E8651B;
 	 margin-left: 135px;
+	 margin-top: -10px;
+ }
+
+ .mainBox {
+	 width: 49%;
+	 padding: 100px;
+	 background-color: transparent;
+	 margin-left: 135px;
+	 border-style: none solid solid solid;
+	 border-width: 1px;
+	 border-color: #ccc;
+ }
+
+ #orange-text{
+	 color: #E8651B;
+ }
+ .topText {
+	 font-family: 'rooney-sans', Avenir-Book, Calibri, sans-serif;
+	 color: #424242;
+	 font-size: 12px;
+	 width: 250px;
+	 text-align: left;
+	 margin-left: -75px;
+	 margin-top: -85px;
+ }
+
+ .mainText{
+	 font-family: 'rooney-sans', Avenir-Book, Calibri, sans-serif;
+	/* color: #424242; */
+	font-size: 12px;
+	width: 225px;
+	text-align: left;
+	margin-left: -75px;
+	margin-top: 10px;
  }
