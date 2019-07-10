@@ -40,3 +40,58 @@ h1 {
 */
 
 /* Your CSS code goes here */
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+.header_container {
+	margin: 1em auto;
+	max-width: 630px;
+	text-align: center;
+}
+
+.box {
+ width: 49%;
+ height: 45px;
+ border-radius: 4px;
+ background-color: #393939;
+ font-family: "rooney-sans", Avenir-Book, Calibri, sans-serif;
+ color: #F7F9F9;
+ text-align: center;
+ vertical-align: middle;
+ line-height: 50px;
+ font-size: 13px;
+ font-weight: lighter;
+ position: relative;
+ margin-right: 30px;
+ margin-left: 135px;
+ margin-bottom: 20px;
+ float: center;
+}
+.box.arrow-bottom:after {
+	content: "";
+	position: absolute;
+	right: 25px;
+	bottom: -7px;
+	border-top: 15px solid #393939;
+	border-right: 10px solid transparent;
+	border-left: 10px solid transparent;
+	border-bottom: none;
+}
+
+.topMeterBorder{
+	 border: 5px solid #eaeaea;
+	 width: 49%;
+	 margin-left: 135px;
+}
+ .meterBox {
+	 width: 37%;
+	 height: 10px;
+	 background-color: #E8651B;
+	 margin-left: 135px;
+ }
