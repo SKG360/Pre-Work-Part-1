@@ -117,7 +117,7 @@ hr {
  }
  .topText {
 	 font-family: 'rooney-sans', Avenir-Book, Calibri, sans-serif;
-	 color: #424242;
+	 color: rgba(136, 136, 136, 1);
 	 font-size: 12px;
 	 width: 250px;
 	 text-align: left;
@@ -126,8 +126,8 @@ hr {
  }
 
  .mainText{
-	 font-family: 'rooney-sans', Avenir-Book, Calibri, sans-serif;
-	/* color: #424242; */
+	font-family: 'rooney-sans', Avenir-Book, Calibri, sans-serif;
+	color: rgba(136, 136, 136, 1);
 	font-size: 12px;
 	width: 225px;
 	text-align: left;
