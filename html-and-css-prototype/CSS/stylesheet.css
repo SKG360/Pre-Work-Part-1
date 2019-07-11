@@ -40,6 +40,10 @@ h1 {
 */
 
 /* Your CSS code goes here */
+/* This is non-responsive.  Meaning that this code is unflexible for viewing size.  */
+<link href='https://fonts.googleapis.com/css?family='rooney-sans' rel='stylesheet'>
+<style>
+
 hr {
   display: block;
   height: 1px;
@@ -85,9 +89,9 @@ hr {
 }
 
 .topMeterBorder{
-	 /* border: 5px solid #eaeaea; */
 	 height: 10px;
 	 width: 49%;
+	 /* adds light grey color  */
 	 background-color: rgba(242, 241, 239, .5);
 	 margin-left: 135px;
 	 border-style: solid;
@@ -223,3 +227,4 @@ hr {
 	border-style: solid;
 	border-width: 1px;
  }
+</style>
