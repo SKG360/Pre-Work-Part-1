@@ -186,10 +186,18 @@ hr {
  	margin-top: 10px;
  }
  #box-a {
- 	background-color: dodgerblue;
+	font-family: 'rooney-sans', Avenir-Book, Calibri, sans-serif;
+	font-size: 12px;
+	background-color: rgba(242, 241, 239, .5);
+	vertical-align: middle;
+ 	line-height: 35px;
+	text-align: center;
  	width: 245px;
  	height: 35px;
  	border-radius: 3px;
+	border-color: #ccc;
+	border-style: solid;
+	border-width: 1px;
  }
 
  #centerSpace-2 {
@@ -199,13 +207,16 @@ hr {
 
  #box-b {
  	font-family: 'rooney-sans', Avenir-Book, Calibri, sans-serif;
- 	color: #FFF;
- 	font-size: 15px;
+ 	font-size: 12px;
  	text-align: center;
- 	background-color: #1CBC2C;
- 	vertical-align: middle;
- 	line-height: 45px;
+	background-color: rgba(242, 241, 239, .5);
+	vertical-align: middle;
+	line-height: 35px;
+	text-align: center;
  	width: 245px;
  	height: 35px;
  	border-radius: 3px;
+	border-color: #ccc;
+	border-style: solid;
+	border-width: 1px;
  }
